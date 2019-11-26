@@ -1,0 +1,82 @@
+body {
+  align-content: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-size: contain;
+  overflow: auto;
+}
+
+.OpenAirQuality {
+  padding: 10px 20px;
+}
+
+/*
+Message styles
+*/
+.Message {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+/*
+Search styles
+*/
+.Search {
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px 0;
+  min-width: 50%;
+}
+
+/*
+General table styles
+*/
+table {
+  width: 100%;
+  text-align: left;
+  box-shadow: 1px 1px 2px 0 (rgba(0, 0, 0, 0.4));
+  margin-bottom: 50px;
+}
+
+/*
+Table header styles
+*/
+th {
+  background-color: #00cb98;
+  color: white;
+  padding: 20px 10px;
+  border-right: 1px solid white;
+}
+
+th:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+th:last-child {
+  border-radius: 0 5px 0 0;
+  border-right: 0;
+}
+
+/*
+Table row styles
+*/
+
+td {
+  padding: 10px;
+  border-left: 1px solid #bab0bf;
+  border-bottom: 1px solid #bab0bf;
+  background-color: #f2f2f2;
+}
+
+td:last-child {
+  border-right: 1px solid #bab0bf;
+  text-align: center;
+}
+
+tr:nth-child(2n + 1) td {
+  background-color: white;
+}
